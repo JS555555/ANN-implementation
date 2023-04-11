@@ -4,4 +4,4 @@ After implementing the NumPy ANN, I implemented the same architecture using Tens
 
 In the first experiment, I changed the optimization algorithm from SGD with momentum to the Adam optimizer. In the second experiment, I added more hidden layers to the network, and decreased the number of hidden units. Since neural network tended to overfit I applied dropout regularization to the network.
 
-Through the experiments, I found that the TensorFlow model with the Adam optimizer and dropout regularization outperformed the NumPy model and the other configurations of the TensorFlow model. Adding more hidden layers and decreasing the number of hidden units improved performance.
+Through the experiments, I found that the TensorFlow model with the Adam optimizer and dropout regularization outperformed the NumPy model and the other configurations of the TensorFlow model. Using Adam optimizer, adding more hidden layers and decreasing the number of hidden units improved performance.
